@@ -1,5 +1,5 @@
  javascript: (function (callback) {
-     // Add any libraries you need to the DOM here (jQuery is added below).
+     /* Add any libraries you need to the DOM here (jQuery is added below). */
      if (typeof jQuery == "undefined") {
          var element = document.createElement("script");
          element.type = "text/javascript";
@@ -10,5 +10,5 @@
          callback();
      }
  })(function () {
-     // Add bookmarklet code here.
+     /* Add bookmarklet code here. */
  });
